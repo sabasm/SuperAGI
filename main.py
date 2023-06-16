@@ -60,6 +60,7 @@ app.add_middleware(DBSessionMiddleware, db_url=db_url)
 origins = [
     "http://localhost:3001",
     "http://localhost:3000",
+    "https://sabasm-improved-engine-wgrjx5q4wrj3v57w-3000.preview.app.github.dev",
     # Add more origins if needed
 ]
 
